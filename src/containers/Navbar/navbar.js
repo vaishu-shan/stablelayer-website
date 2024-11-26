@@ -7,16 +7,15 @@ const Navbar = () => {
     return (
         <div class="navbar mt-6 mb-2">
             <div class="navbar-left">
-                <div style={{ color: "#fff", fontWeight: 700, fontSize: 24, marginRight: 10 }}>StableLayer</div>
-                <a href="#home">Home</a>
-                <a href="#ecosystem">Ecosystem</a>
-                <a href="#network">Network</a>
-                <a href="#transparency">Transparency</a>
-                <a href="#docs">Docs</a>
-                <a href="#community">Community</a>
+                <div style={{ color: "#fff", fontWeight: 700, fontSize: 24, marginRight: 10 }} >StableLayer</div>
+                <a href="#products">Products</a>
+                <a href="#service">Service</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#rResource">Resource</a>
+                <a href="#about">About</a>
             </div>
             <div class="navbar-right">
-                <div class="metric">
+                {/* <div class="metric">
                     <span>TVL</span>
                     $3.28B
                 </div>
@@ -31,14 +30,9 @@ const Navbar = () => {
                 <div class="metric">
                     <span>Users</span>
                     303.16K
-                </div>
+                </div> */}
                 <button class="socials-btn">
-                    <IconContext.Provider value={{ color: "#fff", className: "social-icon" }}>
-                        <div style={{ margin: '0 5px 0 0' }}>
-                            <RiShareLine />
-                        </div>
-                    </IconContext.Provider>
-                    <span>Socials</span>  </button>
+                  Connect Wallet  </button>
             </div>
         </div>
 
