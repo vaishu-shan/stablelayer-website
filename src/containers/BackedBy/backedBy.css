@@ -3,10 +3,10 @@
   flex-direction: column;
   justify-content: space-between;
   /* width: 100%; */
-  padding-top: 2rem;
+  padding-top: 3rem;
   margin: auto;
-  padding-left: 65px;
-  padding-right: 65px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 1rem;
   gap: 1.5rem;
 }
@@ -30,8 +30,7 @@
 .sponser-logo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin:15px  auto 50px ;
+    margin:5px  auto 50px ;
     width: 100%;
 }
 .gradient-line {
@@ -43,6 +42,8 @@
   }
   
 .s-l-img{
+    height: 35px;
+    margin-right: 55px;
 /* height: 25px; */
 /* filter: invert(1) brightness(2); */
 }
@@ -58,5 +59,6 @@
     }
     .s-l-img{
         height: 38px;
+        margin-bottom: 20px;
     }
 }

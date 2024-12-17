@@ -71,7 +71,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   letter-spacing: 0.2px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .logo-text{
   background: #00000068;
@@ -84,4 +84,9 @@
   .navbar-left a{
     display: none;
   }
+  .navbar{
+    margin-left:0px;
+    margin-right: 0px;
+  }
+
  }

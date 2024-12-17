@@ -4,6 +4,8 @@ import "../../styles/global.css"
 import Navbar from '../../containers/Navbar/navbar'
 import BackedBy from '../../containers/BackedBy/backedBy'
 import StableLayerIcon from "../../assets/Images/SL-icon.png"
+import HomeBanner from "../../assets/Images/image 2.png"
+
 
 const HomeSection = () => {
     return (
@@ -14,46 +16,19 @@ const HomeSection = () => {
                     <div className='home-sec-left'>
                         <div className='gap-5 left-flex'>
                             <h1 className='logo-text' style={{marginBottom:10}}> StableLayer</h1>
-                            <div className='left-head'> Enabling Internet Money</div>
-                            <div className="left-subhead">Synthetic Dollar with Internet Native Yield</div>
+                            <div className='left-head'> Your Stablecoin:<br/>Smarter, More Efficient, Less Hassle</div>
+                            <div className="left-subhead">Stable, scalable, and seriously smart—because your <br/> stablecoin shouldn’t make life unstable.</div>
 
                             <a href="#" class="custom-button">
                                 <img src={StableLayerIcon} alt="" className='c-b-img' />
                                 <div>ENTER STABLELAYER </div>
                             </a>
-                            <div className='metric-home'>
-
-                                <div class="metric">
-                                    <span>sUSDe APY</span>
-                                    <div className='metric-data'>   29%</div>
-                                </div>
-                                <div className='metric-break' />
-                                <div class="metric">
-                                    <span>TVL</span>
-                                    <div className='metric-data'> $3.28B</div>
-                                </div>
-                                <div className='metric-break' />
-
-                                <div class="metric">
-                                    <span>APY</span>
-                                    <div className='metric-data'>  29% </div>
-                                </div>
-                                <div className='metric-break' />
-
-                                <div class="metric">
-                                    <span>Est. APY</span>
-                                    <div className='metric-data'>  31% </div>
-                                </div>
-                                <div className='metric-break' />
-
-                                <div class="metric">
-                                    <span>Users</span>
-                                    <div className='metric-data'>     303.16K </div>
-                                </div>
-                            </div>
+                 
                         </div>
                     </div>
-                    <div className='home-sec-right'></div>
+                    <div className='home-sec-right'>
+                        <img src={HomeBanner} alt="" className='home-image' />
+                    </div>
                 </div>
                 <BackedBy />
             </div>

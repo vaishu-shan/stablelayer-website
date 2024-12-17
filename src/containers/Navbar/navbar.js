@@ -15,22 +15,7 @@ const Navbar = () => {
                 <a href="#about">About</a>
             </div>
             <div class="navbar-right">
-                {/* <div class="metric">
-                    <span>TVL</span>
-                    $3.28B
-                </div>
-                <div class="metric">
-                    <span>APY</span>
-                    29%
-                </div>
-                <div class="metric">
-                    <span>Est. APY</span>
-                    31%
-                </div>
-                <div class="metric">
-                    <span>Users</span>
-                    303.16K
-                </div> */}
+  
                 <button class="socials-btn">
                   Connect Wallet  </button>
             </div>
