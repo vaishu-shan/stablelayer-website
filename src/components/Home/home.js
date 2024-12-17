@@ -19,7 +19,7 @@ const HomeSection = () => {
                             <div className='left-head'> Your Stablecoin:<br/>Smarter, More Efficient, Less Hassle</div>
                             <div className="left-subhead">Stable, scalable, and seriously smart—because your <br/> stablecoin shouldn’t make life unstable.</div>
 
-                            <a href="#" class="custom-button">
+                            <a href="https://clinquant-peony-16a13b.netlify.app/" target='_blank' class="custom-button">
                                 <img src={StableLayerIcon} alt="" className='c-b-img' />
                                 <div>ENTER STABLELAYER </div>
                             </a>
