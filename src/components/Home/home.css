@@ -32,6 +32,7 @@
   height: fit-content;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-left: 1.35rem;
   padding-right: 1.35rem;
 }
@@ -43,14 +44,21 @@
 }
 
 .home-sec-right {
-  width: 50%;
+width: 50%;
   display: flex;
   align-items: flex-end;
   justify-content: end;
+
+}
+.overlay-card{
+  position: absolute;
 }
 .home-image {
   height: auto;
-  width: 500px;
+  width: 475px;
+  position: relative;
+  border-radius: 108px;
+
 }
 
 .left-flex {

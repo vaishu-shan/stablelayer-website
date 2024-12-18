@@ -4,7 +4,7 @@ import "../../styles/global.css"
 import Navbar from '../../containers/Navbar/navbar'
 import BackedBy from '../../containers/BackedBy/backedBy'
 import StableLayerIcon from "../../assets/Images/SL-icon.png"
-import HomeBanner from "../../assets/Images/image 2.png"
+import HomeBanner from "../../assets/Images/home-right.png"
 
 
 const HomeSection = () => {
